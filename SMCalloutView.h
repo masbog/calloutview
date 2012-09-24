@@ -51,5 +51,4 @@ extern NSTimeInterval kSMCalloutViewRepositionDelayForUIScrollView;
 // Called after the callout view appears on screen, or after the appearance animation is complete.
 - (void)calloutViewDidAppear:(SMCalloutView *)calloutView;
 
-
 @end
