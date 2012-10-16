@@ -164,6 +164,9 @@ NSTimeInterval kSMCalloutViewRepositionDelayForUIScrollView = 1.0/3.0;
     // ensure we're big enough to fit our graphics!
     //preferredWidth = fmaxf(preferredWidth, CALLOUT_MIN_WIDTH);
     
+    // ensure we're big enough to fit our graphics!
+    preferredWidth = fmaxf(preferredWidth, CALLOUT_MIN_WIDTH);
+    
     // ask to be smaller if we have space, otherwise we'll fit into what we have by truncating the title/subtitle.
     return CGSizeMake(fminf(preferredWidth, size.width), self.calloutHeight);
 }
