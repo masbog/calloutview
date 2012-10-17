@@ -52,11 +52,9 @@ NSTimeInterval kSMCalloutViewRepositionDelayForUIScrollView = 1.0/3.0;
 
 - (id)initWithFrame:(CGRect)frame {
     if (self = [super initWithFrame:frame]) {		
-      self.backgroundColor = [UIColor clearColor];
+        self.backgroundColor = [UIColor clearColor];
         _presentAnimation = SMCalloutAnimationBounce;
         _dismissAnimation = SMCalloutAnimationFade;
-		
-		self.backgroundColor = [UIColor clearColor];
     }
     return self;
 }
