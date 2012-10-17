@@ -132,7 +132,7 @@
     [calloutView presentCalloutFromRect:topPin.frame
                                  inView:marsView
                       constrainedToView:scrollView
-               permittedArrowDirections:SMCalloutArrowDirectionDown
+               permittedArrowDirections:SMCalloutArrowDirectionUp
                                animated:YES];
     
     // Here's an alternate method that adds the callout *inside* the pin view. This may seem strange, but it's how MKMapView

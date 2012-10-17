@@ -55,6 +55,8 @@ NSTimeInterval kSMCalloutViewRepositionDelayForUIScrollView = 1.0/3.0;
       self.backgroundColor = [UIColor clearColor];
         _presentAnimation = SMCalloutAnimationBounce;
         _dismissAnimation = SMCalloutAnimationFade;
+		
+		self.backgroundColor = [UIColor clearColor];
     }
     return self;
 }
