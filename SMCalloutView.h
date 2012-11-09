@@ -41,7 +41,6 @@ extern NSTimeInterval kSMCalloutViewRepositionDelayForUIScrollView;
 @property (nonatomic, retain) UIView *titleView, *subtitleView, *contentView; // if these are set, the respective title/subtitle properties will be ignored
 @property (nonatomic, retain) UIView *leftAccessoryView, *rightAccessoryView;
 
-
 // Custom title/subtitle views. if these are set, the respective title/subtitle properties will be ignored.
 // Keep in mind that SMCalloutView calls -sizeThatFits on titleView/subtitleView if defined, so your view
 // may be resized as a result of that (especially if you're using UILabel/UITextField). You may want to subclass
