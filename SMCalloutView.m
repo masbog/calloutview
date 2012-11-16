@@ -457,21 +457,6 @@ NSTimeInterval kSMCalloutViewRepositionDelayForUIScrollView = 1.0/3.0;
 	}
 }
 
-- (void)setOpacity:(CGFloat)opacity {
-    _opacity = opacity;
-    [self setNeedsDisplay];
-}
-
-- (void)setFillColor:(UIColor *)fillColor {
-    _fillColor = fillColor;
-    [self setNeedsDisplay];
-}
-
-- (void)setBorderColor:(UIColor *)borderColor {
-    _borderColor = borderColor;
-    [self setNeedsDisplay];
-}
-
 - (void)drawRect:(CGRect)rect {
 	
 	CGSize anchorSize = CGSizeMake(27, ANCHOR_HEIGHT);
